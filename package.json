@@ -5,10 +5,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/t83714/rawText2JSON.git"
-  },
+  "repository": "t83714/rawText2JSON",
   "bin": {
     "rawText2JSON": "./bin/rtj.js"
   },
