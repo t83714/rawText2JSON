@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "a CLI utility converts raw text files (text, html etc.) to valid JSON files for importing in React Native projects",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,15 @@
   ],
   "author": "Jacky Jiang",
   "license": "MIT",
+  "engines": {
+    "node": ">=6.11.2"
+  },
   "dependencies": {
     "chalk": "^2.1.0",
     "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0",
+    "node-cmd": "^3.0.0"
   }
 }
