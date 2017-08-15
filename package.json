@@ -7,7 +7,7 @@
   },
   "repository": "t83714/rawText2JSON",
   "bin": {
-    "rawText2JSON": "./bin/rtj.js"
+    "rawtext2json": "./bin/rtj.js"
   },
   "keywords": [
     "React-Native",
