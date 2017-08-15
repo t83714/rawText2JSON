@@ -1,0 +1,30 @@
+{
+  "name": "rawtext2json",
+  "version": "1.0.0",
+  "description": "a CLI utility converts raw text files (text, html etc.) to valid JSON files for importing in React Native projects",
+  "main": "rtj.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t83714/rawText2JSON.git"
+  },
+  "bin" : { 
+    "rawText2JSON" : "./bin/rtj.js" 
+  },
+  "keywords": [
+    "React-Native",
+    "JSON",
+    "Raw",
+    "Text",
+    "HTML",
+    "CLI"
+  ],
+  "author": "Jacky Jiang",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "meow": "^3.7.0"
+  }
+}
