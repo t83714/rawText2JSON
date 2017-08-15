@@ -14,7 +14,7 @@ import license_content from 'license.txt.json';
 
 ## Install
 ```
-$ npm install -g rawText2JSON
+$ sudo npm install -g rawText2JSON
 ```
 
 ##  Usage 
