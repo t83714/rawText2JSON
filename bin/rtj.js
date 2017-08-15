@@ -14,6 +14,7 @@ const cli=new meow(`
 
 if(!cli.input.length || cli.input[0] === 'help') {
   console.log(cli.help);
+  process.exit()
 }
 
 let file_name=cli.input[0];
