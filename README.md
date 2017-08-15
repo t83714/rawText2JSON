@@ -1,4 +1,4 @@
-# rawText2JSON
+# rawtext2json
 a CLI utility converts raw text files (text, html etc.) to valid JSON files for importing in React Native projects
 
 Sometimes, we do need include raw text files (e.g. EULA or Terms of Use) in our apps. It will be nice if we can simply:
@@ -14,16 +14,16 @@ import license_content from 'license.txt.json';
 
 ## Install
 ```
-$ sudo npm install -g rawText2JSON
+$ sudo npm install -g rawtext2json
 ```
 
 ##  Usage 
 ```
-$ rawText2JSON <file>
+$ rawtext2json <file>
 ```
 e.g. Run the following:
 
 ```
-$ rawText2JSON EULA.txt
+$ rawtext2json EULA.txt
 ```
 You will get a valid JOSN file `EULA.txt.json` within the same directory.
