@@ -20,7 +20,7 @@ let file_name=cli.input[0];
 
 fs.readFile(file_name, (err, data) => {
   if(err) {throw err;}
-  let output_file_name = file_name.replace(/\.[\w]+$/g, '.json');
+  let output_file_name = file_name+'.json';
 
   fs.writeFile(output_file_name, JSON.stringify(data.toString()), (err) => {
     if (err) {throw err;}
