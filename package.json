@@ -1,6 +1,6 @@
 {
   "name": "rawtext2json",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a CLI utility converts raw text files (text, html etc.) to valid JSON files for importing in React Native projects",
   "scripts": {
     "test": "mocha"
